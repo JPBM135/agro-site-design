@@ -73,14 +73,6 @@ export function Header() {
 				<VerticalDivider />
 				<Link
 					className="flex gap-1 tracking-tighter items-center hover:drop-shadow-[0_0_0.5rem_#fff] hover:text-dark-text-color transition-colors duration-300"
-					href="/general-concepts"
-				>
-					<Info size={24} />
-					<span className="max-md:hidden">Conceito</span> <span className="max-2xl:hidden">Gerais</span>
-				</Link>
-				<VerticalDivider />
-				<Link
-					className="flex gap-1 tracking-tighter items-center hover:drop-shadow-[0_0_0.5rem_#fff] hover:text-dark-text-color transition-colors duration-300"
 					href="/resource-optimization"
 				>
 					<Grains size={24} />
@@ -110,7 +102,7 @@ export function Header() {
 					className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-screen z-10 backdrop-blur"
 					onClick={() => setParticipantsOpen(false)}
 				>
-					<div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 min-w-[20%] max-lg:min-w-[80%] h-auto p-5 bg-gradient-to-b from-raisin-black to-slate-gray bg-opacity-90 flex flex-col justify-center items-center rounded-lg">
+					<div className="transition-opacity duration-1000 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 min-w-[20%] max-lg:min-w-[80%] h-auto p-5 bg-gradient-to-b from-raisin-black to-slate-gray bg-opacity-90 flex flex-col justify-center items-center rounded-lg">
 						<h2 className="text-snow text-2xl font-semibold mb-4 drop-shadow-[0_0_1rem_#ffffffff">Participantes</h2>
 						<ul className="flex flex-col gap-2">
 							{participants.map((participant) => (
