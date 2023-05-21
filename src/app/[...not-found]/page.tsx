@@ -12,7 +12,7 @@ export default function NotFound() {
 					<h2 className="text-2xl font-semibold text-center text-white">Opss! Página não encontrada</h2>
 
 					<Link
-						className="flex justify-center space-x-2 mt-10 items-center bg-office-green p-3 rounded-md drop-shadow-xl"
+						className="hover:animate-pulse flex justify-center space-x-2 mt-10 items-center bg-office-green p-3 rounded-md drop-shadow-xl"
 						href="/"
 					>
 						<SkipBackCircle size={32} />

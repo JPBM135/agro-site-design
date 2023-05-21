@@ -27,7 +27,7 @@ export default function GlobalError({ error, reset }: { error: Error; reset(): v
 								Pedimos desculpas pelo transtorno, estamos trabalhando para resolver o problema o mais rápido possível.
 							</h3>
 							<button
-								className="flex justify-center max-w-30% space-x-2 mt-10 items-center bg-office-green p-3 rounded-md drop-shadow-xl"
+								className="flex hover:animate-pulse justify-center max-w-30% space-x-2 mt-10 items-center bg-office-green p-3 rounded-md drop-shadow-xl"
 								onClick={reset}
 								type="button"
 							>
