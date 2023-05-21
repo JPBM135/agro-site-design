@@ -11,7 +11,10 @@ export default function NotFound() {
 					<h1 className="text-9xl font-bold text-center text-white drop-shadow-[0_0_0.3rem_#ffffff70]">404</h1>
 					<h2 className="text-2xl font-semibold text-center text-white">Opss! Página não encontrada</h2>
 
-					<Link className="flex justify-center space-x-2 mt-10 items-center bg-office-green p-3 rounded-md" href="/">
+					<Link
+						className="flex justify-center space-x-2 mt-10 items-center bg-office-green p-3 rounded-md drop-shadow-xl"
+						href="/"
+					>
 						<SkipBackCircle size={32} />
 						<div className="text-xl font-semibold text-center text-white">Voltar para a página inicial</div>
 					</Link>
