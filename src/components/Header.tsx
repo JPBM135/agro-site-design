@@ -18,33 +18,29 @@ export function Header() {
 					width={200}
 				/>
 			</Link>
-			<nav className="flex flex-row items-center space-x-4 text-lg font-semibold">
-				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#e85d75ff]" href="/agro-calendar">
+			<nav className="flex flex-row text-snow items-center space-x-4 text-lg font-semibold py-2 px-4 bg-slate-gray rounded-lg">
+				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#fff]" href="/agro-calendar">
 					<Calendar size={24} />
-					<VerticalDivider />
 					Calendário Agricola
 				</Link>
-				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#e85d75ff]" href="/general-concepts">
+				<VerticalDivider />
+				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#fff]" href="/general-concepts">
 					<Info size={24} />
-					<VerticalDivider />
 					Conceito Gerais
 				</Link>
-				<Link
-					className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#e85d75ff]"
-					href="/resource-optimization"
-				>
+				<VerticalDivider />
+				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#fff]" href="/resource-optimization">
 					<Grains size={24} />
-					<VerticalDivider />
 					Otimização de recursos
 				</Link>
-				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#e85d75ff]" href="/fonts">
+				<VerticalDivider />
+				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#fff]" href="/fonts">
 					<ListMagnifyingGlass size={24} />
-					<VerticalDivider />
 					Fontes de Pesquisa
 				</Link>
-				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#e85d75ff]" href="/participants">
+				<VerticalDivider />
+				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#fff]" href="/participants">
 					<UsersFour size={24} />
-					<VerticalDivider />
 					Participantes
 				</Link>
 			</nav>
