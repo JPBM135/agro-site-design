@@ -12,14 +12,25 @@ export function Header() {
 				src="/logo-with-text.svg"
 				width={200}
 			/>
-			<nav className="flex flex-row items-center space-x-8 text-lg font-semibold">
-				<Link className="hover:bg-green-600 hover:backdrop-blur-md" href="/agro-calendar">
+			<nav className="flex flex-row items-center space-x-4 text-lg font-semibold">
+				<Link className="py-1 border-b border-slate-gray hover:border-bright-pink-crayola" href="/agro-calendar">
 					Calendário Agricola
 				</Link>
-				<Link href="/general-concepts">Conceito Gerais</Link>
-				<Link href="/resource-optimization">Otimização de recursos</Link>
-				<Link href="/fonts">Fontes de Pesquisa</Link>
-				<Link href="/participants">Participantes</Link>
+				<Link className="py-1 border-b border-slate-gray hover:border-bright-pink-crayola" href="/general-concepts">
+					Conceito Gerais
+				</Link>
+				<Link
+					className="py-1 border-b border-slate-gray hover:border-bright-pink-crayola"
+					href="/resource-optimization"
+				>
+					Otimização de recursos
+				</Link>
+				<Link className="py-1 border-b border-slate-gray hover:border-bright-pink-crayola" href="/fonts">
+					Fontes de Pesquisa
+				</Link>
+				<Link className="py-1 border-b border-slate-gray hover:border-bright-pink-crayola" href="/participants">
+					Participantes
+				</Link>
 			</nav>
 		</header>
 	);
