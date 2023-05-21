@@ -29,14 +29,14 @@ import { VerticalDivider } from '@/components/VerticalDivider';
 export default function Home() {
 	return (
 		<main className="flex flex-col lg:flex-row min-h-screen w-full">
-			<div className="block my-10 mr-1/2 min-w-[1000px] max-w-[1000px]">
+			<div className="block my-10 mr-1/2 w-1/2 max-md:w-full">
 				<h2 className="text-5xl font-semibold text-gray-700 text-center text-grad">
 					Calendário Agrícola Internacional
 				</h2>
 				<h3 className="text-2xl font-semibold text-center text-dark-text-color">
 					Sumariza as informações mais importantes
 				</h3>
-				<article className="flex flex-col gap-4 my-10 px-12 w-full">
+				<article className="flex flex-col gap-4 my-10 px-12">
 					<h4 className="text-justify text-dark-text-color">
 						O calendário agrícola são dados utilizados por agricultores e jardineiros para planejar e organizar suas
 						atividades ao longo do ano, levando em consideração as características sazonais das plantas e as condições
@@ -54,7 +54,14 @@ export default function Home() {
 						Caledário referente a 2022:
 					</h3>
 				</article>
-				<Image alt="Calendário agricola" height={1_000} priority src="/international-calendar.svg" width={1_000} />
+				<Image
+					alt="Calendário agricola"
+					height={1_000}
+					priority
+					sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, (max-width: 1280px) 100vw, (max-width: 1536px) 100vw, 1000px"
+					src="/international-calendar.svg"
+					width={1_000}
+				/>
 				<h5 className="text-sm font-semibold text-center text-dark-text-color">
 					Fonte:{' '}
 					<a
@@ -69,7 +76,7 @@ export default function Home() {
 				</h5>
 			</div>
 			<VerticalDivider className="my-10 bg-office-green max-md:hidden" height="auto" />
-			<div className="flex flex-col items-center my-10 w-full">
+			<div className="flex flex-col items-center my-10 w-1/2 max-md:w-full">
 				<h2 className="text-5xl font-semibold text-center text-gray-700">Nossa Lua é Importante!</h2>
 				<h3 className="text-2xl font-semibold text-center text-dark-text-color">
 					Entenda como ela influencia na agricultura

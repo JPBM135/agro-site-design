@@ -37,7 +37,7 @@ export function ImageCarousel() {
 	};
 
 	return (
-		<div className="max-w-[1900px] h-[780px] w-full mx-auto py-8 px-4 relative group">
+		<div className="max-w-[1900px] h-[780px] max-lg:h-[500px] w-full mx-auto py-8 px-4 relative group">
 			<div
 				className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
 				style={{ backgroundImage: `url(${InitialImages[currentIndex]})` }}
