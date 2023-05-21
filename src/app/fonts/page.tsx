@@ -17,6 +17,7 @@ export default function Home() {
 					key={font.url}
 				>
 					<div className="flex gap-4 items-center">
+						{/* eslint-disable-next-line @next/next/no-img-element */}
 						<img alt={font.title} className="rounded-full" height={50} src={font.icon} width={50} />
 						<h1 className="text-xl font-bold text-left text-raisin-black drop-shadow-[0_0_0.3rem_#ffffff70]">
 							{font.title}
