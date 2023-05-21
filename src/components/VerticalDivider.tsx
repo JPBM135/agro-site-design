@@ -1,13 +1,19 @@
 interface VerticalDividerProps {
-	height?: number;
+	className?: string;
+	height?: number | string;
 	opacity?: number;
-	width?: number;
+	width?: number | string;
 }
 
-export function VerticalDivider({ width = 2, height = 24, opacity = 0.8 }: VerticalDividerProps) {
+export function VerticalDivider({
+	width = 2,
+	height = 24,
+	opacity = 0.8,
+	className = 'bg-raisin-black',
+}: VerticalDividerProps) {
 	return (
 		<div
-			className="bg-raisin-black h-full"
+			className={`h-full ${className}`}
 			style={{
 				width,
 				height,
