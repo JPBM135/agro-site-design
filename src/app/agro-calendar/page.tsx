@@ -48,7 +48,7 @@ export default function Home() {
 						outros elementos que afetam o crescimento das plantas. Essas informações são usadas para determinar os
 						períodos ideais para diferentes atividades agrícolas. Como mostrado no calendário abaixo:
 					</h4>
-					<h3 className="flex gap-3 text-xl font-semibold text-center border p-3 border-raisin-black rounded-lg text-gray-700">
+					<h3 className="flex gap-3 text-xl mt-5 font-semibold text-center border p-3 border-raisin-black rounded-lg text-gray-700">
 						<Calendar size={24} />
 						<VerticalDivider height={24} />
 						Caledário referente a 2022:
@@ -58,7 +58,7 @@ export default function Home() {
 					alt="Calendário agricola"
 					height={1_000}
 					priority
-					sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, (max-width: 1280px) 100vw, (max-width: 1536px) 100vw, 1000px"
+					sizes="(max-width: 640px) 98vw, (max-width: 768px) 98vw, (max-width: 1024px) 98vw, (max-width: 1280px) 98vw, (max-width: 1536px) 98vw, 1000px"
 					src="/international-calendar.svg"
 					width={1_000}
 				/>

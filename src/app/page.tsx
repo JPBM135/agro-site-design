@@ -18,7 +18,7 @@ export default function Home() {
 				</div>
 			</div>
 			<div className="flex max-lg:flex-col gap-5 justify-evenly">
-				<div className="max-w-sm flex flex-col items-center gap-5 bg-snow p-5 rounded-lg drop-shadow-xl">
+				<div className="max-lg:mx-5 max-w-sm flex flex-col items-center gap-5 bg-snow p-5 rounded-lg drop-shadow-xl">
 					<Image
 						alt="Imagem de uma plantação representando o plantio convencional"
 						className="rounded-full aspect-square object-cover border-4 border-slate-gray"
@@ -34,7 +34,7 @@ export default function Home() {
 						lavouras comerciais, e exige a preparação do solo de forma mais intensiva.
 					</h4>
 				</div>
-				<div className="max-w-sm flex flex-col items-center gap-5 bg-snow p-5 rounded-lg drop-shadow-xl">
+				<div className="max-lg:mx-5 max-w-sm flex flex-col items-center gap-5 bg-snow p-5 rounded-lg drop-shadow-xl">
 					<Image
 						alt="Imagem de uma plantação representando o plantio direto"
 						className="rounded-full aspect-square object-cover border-4 border-slate-gray"
@@ -50,7 +50,7 @@ export default function Home() {
 						seca da produção anterior, sendo essencial a rotação de cultura neste plantio.
 					</h4>
 				</div>
-				<div className="max-w-sm flex flex-col items-center gap-5 bg-snow p-5 rounded-lg drop-shadow-xl">
+				<div className="max-lg:mx-5 max-w-sm flex flex-col items-center gap-5 bg-snow p-5 rounded-lg drop-shadow-xl">
 					<Image
 						alt="Imagem de uma plantação representando o plantio mínimo"
 						className="rounded-full aspect-square object-cover border-4 border-slate-gray"
