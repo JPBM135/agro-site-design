@@ -242,5 +242,24 @@
     ],
     "image": "https://networdagro.com.br/blog/wp-content/uploads/2021/08/fatores-para-analisar-para-saber-melhor-hora-de-plantar.jpg",
     "icon": "https://networdagro.com.br/blog/wp-content/themes/doisop/images/favicons/apple-touch-icon.png"
+  },
+  {
+    "title": "Calendário de Safra - Mercados Agrícolas",
+    "description": "Calendárioa de safra: O calendário de safra para as principais commodities agrícolas nos maiores países produtores determina a oferta.",
+    "language": "pt",
+    "type": "article",
+    "url": "https://mercadosagricolas.com.br/inteligencia/calendario-de-safra/",
+    "provider": "Mercados Agrícolas | StoneX",
+    "section": "+Inteligência",
+    "published": "2022-08-24T21:37:06.000Z",
+    "robots": [
+      "follow",
+      "index",
+      "max-snippet:-1",
+      "max-video-preview:-1",
+      "max-image-preview:large"
+    ],
+    "image": "https://mercadosagricolas.com.br/wp-content/uploads/2018/06/Terras.jpg",
+    "icon": "https://mercadosagricolas.com.br/wp-content/uploads/2023/01/cropped-512-300x300.png"
   }
 ]
