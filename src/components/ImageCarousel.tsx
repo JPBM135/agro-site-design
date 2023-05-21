@@ -1,5 +1,6 @@
 'use client';
 
+import { CaretDoubleLeft } from '@phosphor-icons/react';
 import { useEffect, useState } from 'react';
 
 const FarmImagesPrefix = 'farm-image-';
@@ -42,9 +43,15 @@ export function ImageCarousel() {
 				className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
 				style={{ backgroundImage: `url(${InitialImages[currentIndex]})` }}
 			/>
-			<div className="flex top-4 justify-center py-2">
+			<div className="flex top-4 justify-center py-2 gap-4">
 				{InitialImages.map((slide, slideIndex) => (
-					<div className="text-2xl cursor-pointer" key={slideIndex} onClick={() => goToSlide(slideIndex)} />
+					<div className="text-2xl cursor-pointer" key={slideIndex} onClick={() => goToSlide(slideIndex)}>
+						{slideIndex === currentIndex ? (
+							<div className="w-3 h-3 bg-raisin-black rounded-full" />
+						) : (
+							<div className="w-3 h-3 bg-slate-gray rounded-full" />
+						)}
+					</div>
 				))}
 			</div>
 		</div>
