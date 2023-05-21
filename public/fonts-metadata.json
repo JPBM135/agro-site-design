@@ -261,5 +261,25 @@
     ],
     "image": "https://mercadosagricolas.com.br/wp-content/uploads/2018/06/Terras.jpg",
     "icon": "https://mercadosagricolas.com.br/wp-content/uploads/2023/01/cropped-512-300x300.png"
+  },
+  {
+    "title": "O que é agricultura familiar e qual é a sua importância? - Canal Agro Estadão",
+    "description": "A agricultura familiar é responsável pela maior parte dos alimentos que chegam à mesa das famílias brasileiras. Conheça essa prática agrícola.",
+    "language": "pt",
+    "type": "article",
+    "url": "https://summitagro.estadao.com.br/noticias-do-campo/o-que-e-agricultura-familiar-e-qual-e-a-sua-importancia/",
+    "provider": "Canal Agro Estadão",
+    "author": "Canal Agro",
+    "published": "2021-10-25T22:00:00.000Z",
+    "modified": "2023-03-17T18:45:10.000Z",
+    "robots": [
+      "index",
+      "follow",
+      "max-image-preview:large",
+      "max-snippet:-1",
+      "max-video-preview:-1"
+    ],
+    "image": "https://summitagro.estadao.com.br/wp-content/uploads/2021/10/986.jpg",
+    "icon": "https://summitagro.estadao.com.br/wp-content/uploads/2020/08/favicon.png"
   }
 ]
