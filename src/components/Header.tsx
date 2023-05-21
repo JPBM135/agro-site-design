@@ -18,7 +18,7 @@ export function Header() {
 					width={200}
 				/>
 			</Link>
-			<nav className="flex flex-row text-snow items-center space-x-4 text-lg font-semibold py-2 px-4 bg-slate-gray rounded-lg">
+			<nav className="flex flex-row text-snow items-center space-x-4 text-lg font-semibold py-2 px-4 border-y">
 				<Link className="flex gap-1 items-center hover:drop-shadow-[0_0_0.5rem_#fff]" href="/agro-calendar">
 					<Calendar size={24} />
 					Calendário Agricola
