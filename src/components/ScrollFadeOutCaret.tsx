@@ -20,7 +20,7 @@ export function ScrollFadeOutCaret() {
 
 	return (
 		<div
-			className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[40vh]"
+			className="absolute top-1/2 left-16 transform -translate-x-1/2 translate-y-[40vh]"
 			style={{
 				opacity,
 			}}
